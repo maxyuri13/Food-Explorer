@@ -30,16 +30,12 @@ export default createGlobalStyle`
     text-decoration: none;
   }
 
-  button {
-    border: none;
-  }
-
   button, a {
     cursor: pointer;
     transition: filter .2s;
   }
 
-  button:hover, a:hover {
+  a:hover {
     filter: brightness(.9);
   }
 
