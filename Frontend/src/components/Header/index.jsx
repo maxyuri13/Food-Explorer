@@ -1,16 +1,22 @@
-import { Container } from "./styles";
+import { FiLogOut } from "react-icons/fi";
+import { PiReceiptBold } from "react-icons/pi";
 import { Button } from "../Button";
+
+import { Container, Logout } from "./styles";
 
 export function Header() {
   return(
     <Container>
       <header>
-        <img src="../../assets/explorer.svg" alt="log" />
-        <h1>food explorer</h1>
+        <img src="../../assets/explorer.svg" alt="Logo food explorer" />
+        <span> food explorer</span>
       </header>
-      <Button title="Pedidos">
-        <img src="../../assets/icons/Receipt.svg" alt="Icone de Recibo" />
+      <Button title="Meu pedido (0)">
+        <PiReceiptBold />
       </Button>
+      <Logout>
+        <FiLogOut />
+      </Logout>
     </Container>
   );
 }
