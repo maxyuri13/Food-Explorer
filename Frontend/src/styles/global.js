@@ -51,4 +51,4 @@ export default createGlobalStyle`
     border-radius: .8rem;
     background-color: ${({ theme }) => theme.COLORS.CAKE_100};
   }
-`
+`;
