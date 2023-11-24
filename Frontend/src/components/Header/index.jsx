@@ -6,12 +6,12 @@ import { Input } from "../Input";
 
 import { Container, Logo, Search, Order, Logout } from "./styles";
 
-export function Header() {
+export function Header(){
   return(
     <Container>
       <Logo>
         <BsHexagonFill/>
-        <span>food explorer</span>
+        <h1>food explorer</h1>
       </Logo>
       <Search>
         <Input placeholder="Busque por pratos ou ingredientes" icon={FiSearch}/>

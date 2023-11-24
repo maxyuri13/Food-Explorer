@@ -27,7 +27,7 @@ export const Logo = styled.div`
     color: ${({ theme}) => theme.COLORS.CAKE_100};
   }
 
-  span {
+  h1 {
     font-size: 2.4rem;
     font-weight: 700;
     color: ${({ theme}) => theme.COLORS.LIGHT_100};
