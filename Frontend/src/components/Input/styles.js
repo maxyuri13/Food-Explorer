@@ -8,7 +8,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
 
   border-radius: .5rem;
 
@@ -19,13 +18,17 @@ export const Container = styled.div`
     width: 100%;
     height: 48px;
     padding: 1.2rem 1.4rem;
-
+    
     color: ${({ theme }) => theme.COLORS.LIGHT_400};
     background: transparent;
     border: 0;
 
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.LIGHT_500};
-    }
+    } 
   }
+
+  > svg {
+      margin-left: 1.4rem;
+    }
 `;

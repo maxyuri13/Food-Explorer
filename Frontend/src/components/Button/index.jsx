@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
 
-export function Button({ title, loading = false, ...rest }) {
+export function Button({ icon: Icon, title, loading = false, ...rest }) {
 
   return (
     <Container 
@@ -9,6 +9,7 @@ export function Button({ title, loading = false, ...rest }) {
       disabled={loading}
       {...rest}
     >
+      {Icon && <Icon size={24} />}
       { loading ? 'Carregando...' : title }
     </Container>
   );
