@@ -10,4 +10,14 @@ export const Container = styled.div`
   "header"
   "content"
   "footer"
-`;
+
+  
+`
+export const Content = styled.div`
+  overflow-y: auto;
+`
+
+
+export const Panel = styled.div`
+  padding: 26.8rem auto 0;
+`
