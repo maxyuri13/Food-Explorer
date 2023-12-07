@@ -14,7 +14,7 @@ export const Container = styled.div`
 
     border-radius: .8rem;
 
-    background-color: ${({ theme }) => theme.COLORS.DARK_800};
+    background-color: ${({ theme }) => theme.COLORS.DARK_900};
 
     h1 {
       font-family: 'Poppins', sans-serif;

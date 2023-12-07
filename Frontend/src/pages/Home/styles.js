@@ -14,6 +14,8 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
   overflow-y: auto;
 `
@@ -22,7 +24,7 @@ export const Content = styled.div`
 export const Panel = styled.div`
  
 .bannerCard{
-  margin-top: 16.4rem;
+  margin-top: 16rem;
  }
   
 `
