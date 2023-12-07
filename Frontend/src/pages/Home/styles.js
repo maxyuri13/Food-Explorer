@@ -9,15 +9,20 @@ export const Container = styled.div`
   grid-template-areas: 
   "header"
   "content"
-  "footer"
-
-  
+  "footer"  
 `
 export const Content = styled.div`
+  display: flex;
+  justify-content: center;
+  
   overflow-y: auto;
 `
 
 
 export const Panel = styled.div`
-  padding: 26.8rem auto 0;
+ 
+.bannerCard{
+  margin-top: 16.4rem;
+ }
+  
 `

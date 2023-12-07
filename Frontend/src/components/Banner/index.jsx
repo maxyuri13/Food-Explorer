@@ -6,7 +6,7 @@ export function Banner(){
     <Container>
       <div className="bannerCard">
         <img src={Picture} alt="Frutas e biscoitos recheados" />
-          <div className="tittle">
+          <div>
             <h1>Sabores inigualáveis</h1>
             <p>Sinta o cuidado do preparo com ingredientes selecionados</p>
           </div>
